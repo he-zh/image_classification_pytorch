@@ -1,6 +1,6 @@
 # image_classification_pytorch
 
-This repository contains pytorch implementation of some of the convolutional networks referred by the [Dive Into Deep Learning](https://d2l.ai/) book 
+This repository contains practice of image classification tasks in PyTorch tutorials, with implementation of some of the convolutional networks referred by the [Dive Into Deep Learning](https://d2l.ai/) book 
 ([中文版:动手学深度学习](http://zh.d2l.ai/)). 
 
 ## Requirements
