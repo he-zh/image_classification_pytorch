@@ -13,7 +13,8 @@ This repository contains pytorch implementation of some of the convolutional net
 ## Usage
 
 ### dataset
-Cifar10 [download](https://www.cs.toronto.edu/~kriz/cifar.html)
+
+- Cifar10 [download](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 Instead of using cifar10 dataset from torchvision, I write code for collecting data from raw files in dataset folder.
 
@@ -55,5 +56,7 @@ $ python evaluate.py --data_dir=<cifar10-directory> --checkpoint_dir=<path-to-pa
 
 ## Reference
 https://github.com/ShusenTang/Dive-into-DL-PyTorch
+
 https://github.com/yunjey/pytorch-tutorial
+
 https://github.com/pytorch/vision/tree/d5096a7f9944fde2619649f2374d866c86e66c32/torchvision/models
