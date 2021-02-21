@@ -12,13 +12,13 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Train')
 
     # basic parameters
-    parser.add_argument('--model_name', type=str, default='DenseNet', help='the name of the model: LeNet, VGG')
+    parser.add_argument('--model_name', type=str, default='DenseNet', help='the name of the model')
     parser.add_argument('--data_name', type=str, default='cifar10', help='the name of the data')
     parser.add_argument('--data_dir', type=str, default= '..\..\data\cifar10\cifar-10-batches-py', help='the directory of the data')
     parser.add_argument('--data_aug', type=bool, default=False, help='whether to augment the data')
     parser.add_argument('--cuda_device', type=str, default='0', help='assign device')
     parser.add_argument('--checkpoint_dir', type=str, default='./checkpoint', help='the directory to save the model')
-    parser.add_argument("--pretrained", type=bool, default=True, help='whether to load the pretrained model')
+    parser.add_argument("--pretrained", type=bool, default=False, help='whether to load the pretrained model')
     parser.add_argument('--batch_size', type=int, default=64, help='batchsize of the training process')
     parser.add_argument('--num_workers', type=int, default=0, help='the number of training process')
 
