@@ -12,7 +12,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Train')
 
     # basic parameters
-    parser.add_argument('--model_name', type=str, default='DenseNet', help='the name of the model')
+    parser.add_argument('--model_name', type=str, default='DenseNet', help='the name of the model: LeNet, VGG')
     parser.add_argument('--data_name', type=str, default='cifar10', help='the name of the data')
     parser.add_argument('--data_dir', type=str, default= '..\..\data\cifar10\cifar-10-batches-py', help='the directory of the data')
     parser.add_argument('--data_aug', type=bool, default=False, help='whether to augment the data')
