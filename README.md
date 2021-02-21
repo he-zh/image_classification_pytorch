@@ -3,7 +3,7 @@
 This repository contains pytorch implementation of some of the convolutional networks referred by the [Dive Into Deep Learning](https://d2l.ai/) book 
 ([中文版:动手学深度学习](http://zh.d2l.ai/)). 
 
-## RequirementS
+## Requirements
 - python 3.6
 - pytorch 1.7.0
 - torchvision 0.8.1
