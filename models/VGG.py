@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
 from torch import nn
 import torch.utils.model_zoo as model_zoo
 import torchvision

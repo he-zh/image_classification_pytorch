@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
 import argparse
 import os
 from utils.evaluate_utils import Evaluate_Utils
