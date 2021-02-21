@@ -33,7 +33,7 @@ def parse_args():
 
 
     # save, load and display information
-    parser.add_argument('--max_epoch', type=int, default=10, help='max number of epoch')
+    parser.add_argument('--max_epoch', type=int, default=100, help='max number of epoch')
     parser.add_argument('--print_step', type=int, default=10, help='the interval of log training information')
     args = parser.parse_args()
     return args
